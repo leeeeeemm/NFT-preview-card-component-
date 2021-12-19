@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    background-color: hsl(217, 54%, 11%); 
+}
+body{
+    background-color: hsl(216, 50%, 16%);
+    width : 20em;
+    padding: 10em;
+    font-family: "Outfit", Verdana, sans-serif;
+    border-radius: 2em;
+}
+h1{
+    font-size: 18px;
+    font-style: 600;  
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 15px;
+    font-style: 300;
+    background-color: hsl(216, 50%, 16%);
+}
+.cube{
+    width: 100%;
+    border-radius: 2em;
+}
+
+.days{
+    text-align:right;
+   color: hsl(0, 0%, 100%);
+   margin: auto;
+   padding-left: 45%;
+   width: 100%;
+}
+.eth{
+    text-align:left;
+    color:hsl(178, 100%, 50%);
+    font-style:600;
+    width: 100%;
+}
+.icon-1, .icon-2{
+    padding-right: 3%;
+    background-color: hsl(216, 50%, 16%);
+}
+hr{
+    border: 0.5px solid hsl(0, 0%, 100%);
+}
+.profil{
+    display:flex;
+    background-color: hsl(216, 50%, 16%);
+    box-sizing:content-box;
+}
+.bas{
+    background-color: hsl(216, 50%, 16%);
+    display:flex;
+    flex-wrap: space-between;
+    font-size: 10px;
+}
+.avatar{
+    width:10%;
+    background-color: hsl(216, 50%, 16%);
+    margin: 5%;
+}
+.attribution{
+    padding-top: 10%;
+    background-color: hsl(216, 50%, 16%);
+}
+a{
+    color: hsl(0, 0%, 100%);  
+}
